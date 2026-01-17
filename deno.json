@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "@std/expect": "jsr:@std/expect@^1.0.17",
+    "hono": "npm:hono@^4.11.4",
+    "zod": "npm:zod@^4.3.5"
+  },
+  "tasks": {
+    "start": "deno run --watch --allow-net main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
