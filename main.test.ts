@@ -1,6 +1,6 @@
 import {testClient} from "hono/testing";
 import router from "./main.ts";
-import { expect } from "jsr:@std/expect";
+import { expect } from "@std/expect";
 
 const rTest = testClient(router)
 
