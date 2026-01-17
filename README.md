@@ -1,7 +1,7 @@
-# json_analysis
+# json解析
 
 ## 概要
-deno + honoによるapiお試しプロジェクト
+deno + honoによるapiお試しプロジェクト  
 渡されたjsonを解析して、結果を返却する
 
 ## テスト
